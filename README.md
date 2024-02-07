@@ -55,7 +55,7 @@ To run the E-Commerce project locally, follow these steps:
 Our project is not just about functionality; it's also about a user-friendly interface. We've harnessed the power of Angular Material UI to provide you with a polished and enjoyable shopping experience.
 
 ## Support
-For any questions or support, please reach out to [Reginah Shikanda](reginahshikanda@gmail.com)
+For any questions or support, please reach out to [Reginah Shikanda](reggyshicky@github.com)
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
