@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -7,6 +8,8 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { DemoAngularMaterailModule } from './DemoAngularMaterialModule';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { HttpClientModule } from '@angular/common/http';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,11 @@ import { SignupComponent } from './signup/signup.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    DemoAngularMaterailModule
+    DemoAngularMaterailModule,
+    ReactiveFormsModule,
+    FormsModule,
+    HttpClientModule,
+    MatButtonModule,
   ],
   providers: [
     provideClientHydration(),
